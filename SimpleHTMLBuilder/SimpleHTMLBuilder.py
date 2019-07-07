@@ -3,7 +3,7 @@ from contextlib import contextmanager
 INDENT = '  '
 
 
-class HTMLBuilder:
+class SimpleHTMLBuilder:
     element_string = ''
     indent_level = 0
     
